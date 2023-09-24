@@ -99,7 +99,7 @@ function Service() {
                     className={`${
                       cardData.title === "Ideate"
                         ? "bg-white"
-                        : "bg-white dark:bg-[#020E2D]"
+                        : "bg-[#F3F4F6] dark:bg-[#020E2D]"
                     } p-[17px] rounded-full dark:fill-blue-600 fill-blue-600`}
                   >
                     <svg

@@ -7,7 +7,7 @@ function Hero() {
         <div className="flex flex-wrap xl:flex-nowrap xl:justify-between items-center">
           {/* Left Section */}
           <div className="text gap-y-6 flex flex-col dark:text-white">
-            <h1 className="text-3xl md:text-[42px] xl:text-[56px] leading-[72px] tracking-[-0.4px] font-semibold w-[570px]">
+            <h1 className="text-3xl md:text-[42px] xl:text-[56px] leading-[72px] tracking-[-0.4px] font-semibold max-w-[570px] xl:w-[570px]">
               Make your business{" "}
               <span className="text-main-orange dark:text-main-yellow">
                 more powerful
@@ -15,7 +15,7 @@ function Hero() {
               <br />
               with us
             </h1>
-            <p className="text-lg !leading-[32px] w-[365px] text-main-gray dark:text-white">
+            <p className="text-lg !leading-[32px] max-w-[365px] xl:w-[365px] text-main-gray dark:text-white">
               We provide various services to make
               <br className="hidden xl:inline" /> your business grow and get
               bigger. Your satisfaction is our first priority.
