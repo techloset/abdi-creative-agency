@@ -20,10 +20,15 @@ module.exports = {
       boxShadow: {
         "btn-shadow": "-15px 10px 30px 0px rgba(76, 64, 247, 0.25)",
         "service-shadow": "-10px 30px 70px 0px rgba(76, 64, 247, 0.20)",
+        "testimonial-shadow": "-15px 20px 70px 0px rgba(76, 64, 247, 0.20)",
       },
       backgroundImage: {
         "hero-img": "url(/assets/images/bg-hero.png)",
-        // "footer-texture": "url('/img/footer-texture.png')",
+        "faq-bg": "url(/assets/images/bg-FAQ-section.png)",
+        "sm-faq-bg": "url(/assets/images/sm-bg-FAQ-section.png)",
+      },
+      backgroundSize: {
+        full: "100%",
       },
     },
   },
