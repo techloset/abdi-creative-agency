@@ -13,7 +13,7 @@ function Hero() {
                 <span className="text-main-orange dark:text-main-yellow">
                   more powerful
                 </span>{" "}
-                <br />
+                <br className="hidden md:block" />
                 with us
               </h1>
               <p className="text-lg !leading-[32px] max-w-[365px] xl:w-[365px] text-main-gray dark:text-white">

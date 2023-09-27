@@ -1,5 +1,4 @@
-// import Footer from "./(components)/Footer";
-// import Navbar from "./(components)/Navbar";
+import CarouselSection from "./Home/CarouselSection";
 import Companies from "./Home/Companies";
 import Customer from "./Home/Customer";
 import Docu from "./Home/Docu";
@@ -12,16 +11,15 @@ import WorkingSpace from "./Home/WorkingSpace";
 export default function Home() {
   return (
     <>
-      {/* <Navbar /> */}
       <Hero />
       <Service />
       <Docu />
       <Customer />
       <WorkingSpace />
       <Companies />
+      <CarouselSection />
       <FAQ />
       <Testimonial />
-      {/* <Footer /> */}
     </>
   );
 }
