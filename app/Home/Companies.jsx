@@ -13,72 +13,57 @@ function Companies() {
           </h3>
         </div>
         <div className=" md:pt-10 pb-20 lg:pb-[200px] space-y-11">
-          <div
-            className="grid grid-cols-1 md:grid-cols-3 md:-mt-20 lg:-mt-10 lg:grid-cols-5 sm:justify-between  
-            justify-around
-       lg:gap-y-[60px] lg:gap-x-20 md:gap-x-36 gap-x-auto
-           space-y-11 lg:space-y-0"
-          >
-            <div className="grid items-end md:justify-start justify-center">
-              <img
-                src="/assets/images/companies/amazon.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center">
-              <img
-                src="/assets/images/companies/jeep.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center md:justify-end">
-              <img
-                src="/assets/images/companies/careem.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center md:justify-start">
-              <img
-                src="/assets/images/companies/hubSpot.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center lg:justify-end">
-              <img
-                src="/assets/images/companies/jQuery.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center lg:justify-start md:justify-end">
-              <img
-                src="/assets/images/companies/canon.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center md:justify-start">
-              <img
-                src="/assets/images/companies/fedex.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center">
-              <img
-                src="/assets/images/companies/bitcoin.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center md:justify-end">
-              <img
-                src="/assets/images/companies/pirelli.png"
-                alt="image not found"
-              />
-            </div>
-            <div className="grid justify-center lg:justify-end">
-              <img
-                src="/assets/images/companies/philips.png"
-                alt="image not found"
-              />
-            </div>
+          <div className="grid md:grid-cols-5 gap-[60px]  md:-mt-20 lg:-mt-10">
+            <img
+              src="/assets/images/companies/amazon.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/jeep.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/careem.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/hubSpot.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/jQuery.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/canon.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/fedex.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/bitcoin.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/pirelli.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
+            <img
+              src="/assets/images/companies/philips.png"
+              className="mx-auto md:mx-0"
+              alt="companies"
+            />
           </div>
         </div>
       </div>
