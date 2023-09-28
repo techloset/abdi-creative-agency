@@ -11,7 +11,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`px-6 lg:px-20 xl:px-[160px] h-[120px] flex justify-between items-center`}
+      className={`px-6 lg:px-[70px] xl:px-[160px] h-[120px] flex justify-between items-center`}
     >
       <div className={`flex w-full md:max-w-fit justify-between items-center `}>
         <img

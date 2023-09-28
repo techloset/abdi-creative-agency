@@ -14,7 +14,7 @@ function CarouselSection() {
 
   return (
     <div className="bg-[#FE9602] dark:bg-[#020E2D] py-[100px]  md:px-0">
-      <div className="relative mx-[24px] lg:mx-[80px]  xl:mx-[160px]">
+      <div className="relative mx-[24px] lg:mx-[70px]  xl:mx-[160px]">
         {/* item */}
         <div
           className={`flex-col text-white space-y-[44px] ${
@@ -36,17 +36,53 @@ function CarouselSection() {
             </p>
           </div>
           <div className="flex flex-col space-y-4">
-            <p className="text-lg md:text-xl lg:text-xl text-center">
-              Mark Garfield
-            </p>
-            <p className="text-lg md:text-xl lg:text-xl text-center">
+            <p className="text-base md:text-xl text-center">Mark Garfield</p>
+            <p className="text-base md:text-xl text-center">
               CEO & Head of Product
             </p>
-            <img
-              src="/assets/images/svg/slider.svg"
-              alt=""
-              className="mx-auto"
-            />
+            {/* bar */}
+            <div className="mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="72"
+                height="5"
+                viewBox="0 0 72 5"
+                fill="none"
+              >
+                <rect
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFF]"
+                />
+                <rect
+                  x="19"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="38"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="57"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+              </svg>
+            </div>
+            {/* bar */}
           </div>
         </div>
         {/* item */}
@@ -71,17 +107,53 @@ function CarouselSection() {
             </p>
           </div>
           <div className="flex flex-col space-y-4">
-            <p className="text-lg md:text-xl lg:text-xl text-center">
-              Abdullah Murtaza
-            </p>
-            <p className="text-lg md:text-xl lg:text-xl text-center">
+            <p className="text-base md:text-xl text-center">Abdullah Murtaza</p>
+            <p className="text-base md:text-xl text-center">
               CEO & Head of Product
             </p>
-            <img
-              src="/assets/images/svg/slider.svg"
-              alt=""
-              className="mx-auto"
-            />
+            {/* bar */}
+            <div className="mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="72"
+                height="5"
+                viewBox="0 0 72 5"
+                fill="none"
+              >
+                <rect
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="19"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFF]"
+                />
+                <rect
+                  x="38"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="57"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+              </svg>
+            </div>
+            {/* bar */}
           </div>
         </div>
         {/* item2 */}
@@ -106,15 +178,53 @@ function CarouselSection() {
             </p>
           </div>
           <div className="flex flex-col space-y-4">
-            <p className="text-lg md:text-xl lg:text-xl text-center">Abdi</p>
-            <p className="text-lg md:text-xl lg:text-xl text-center">
+            <p className="text-base md:text-xl text-center">Abdi</p>
+            <p className="text-base md:text-xl text-center">
               CEO & Head of Product
             </p>
-            <img
-              src="/assets/images/svg/slider.svg"
-              alt=""
-              className="mx-auto"
-            />
+            {/* bar */}
+            <div className="mx-auto">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="72"
+                height="5"
+                viewBox="0 0 72 5"
+                fill="none"
+              >
+                <rect
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="19"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+                <rect
+                  x="38"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFF]"
+                />
+                <rect
+                  x="57"
+                  y="0.353516"
+                  width="15"
+                  height="4"
+                  rx="2"
+                  className="fill-[#FFCC00]"
+                />
+              </svg>
+            </div>
+            {/* bar */}
           </div>
         </div>
         {/* item3 */}
@@ -122,7 +232,7 @@ function CarouselSection() {
         {/* navigation */}
         <div
           onClick={setvalue}
-          className="image-swiper-button-next right-0 top-[50%] p-4 absolute rounded-full dark:bg-main-gray dark:fill-white hover:fill-white hover:bg-main-purple bg-white w-fit fill-main-purple"
+          className="image-swiper-button-next right-0 top-[40%] md:top-[50%] p-4 absolute rounded-full dark:bg-main-gray dark:fill-white hover:fill-white hover:bg-main-purple bg-white w-fit fill-main-purple"
         >
           <svg
             className="font-bold w-[12px] h-[12px]"
@@ -138,7 +248,7 @@ function CarouselSection() {
         </div>
         <div
           onClick={setvalue}
-          className="image-swiper-button-prev rotate-180 top-[50%] p-4 absolute rounded-full dark:bg-main-gray dark:fill-white hover:fill-white hover:bg-main-purple bg-white w-fit fill-main-purple"
+          className="image-swiper-button-prev rotate-180 top-[40%] md:top-[50%] p-4 absolute rounded-full dark:bg-main-gray dark:fill-white hover:fill-white hover:bg-main-purple bg-white w-fit fill-main-purple"
         >
           <svg
             className="font-bold w-[12px] h-[12px]"

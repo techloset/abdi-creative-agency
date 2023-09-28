@@ -15,7 +15,7 @@ function Customer() {
     <section>
       <div className="bg-[#F9F9FD] dark:bg-[#020E2D] py-[100px]">
         <div
-          className={`mx-[24px] lg:mx-[80px]  xl:mx-[160px] flex flex-col lg:flex-row gap-y-10 space-x-10 justify-between items-center`}
+          className={`mx-[24px] lg:mx-[70px]  xl:mx-[160px] flex flex-col lg:flex-row gap-y-10 space-x-10 justify-between items-center`}
         >
           <div className="grid  grid-cols-1 md:grid-cols-2 gap-10 justify-center">
             <div className="grid gap-10 md:mt-12">
@@ -71,7 +71,7 @@ function Customer() {
               {/* card */}
             </div>
           </div>
-          <div className="grid justify-center lg:justify-end">
+          <div className="grid justify-start lg:justify-end">
             <div className="space-y-9 max-w-[460px] ">
               <h1 className="text-3xl text-[#111029] dark:text-white md:text-5xl lg:text-[56px] lg:leading-[72px] tracking-[-0.4px] font-semibold">
                 Customer satisfaction is our first priority

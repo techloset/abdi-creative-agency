@@ -52,15 +52,12 @@ function Testimonial() {
       <div
         className={`testimonialSec py-[100px] dark:bg-[#020E2D] bg-[#F9F9FD]`}
       >
-        <div className={`mx-[24px] lg:mx-[80px]  xl:mx-[160px]`}>
+        <div className={`mx-[24px] lg:mx-[70px]  xl:mx-[160px]`}>
           <div className="heading space-y-5 xl:px-4 sm:p-0 mb-[60px]">
-            <h6 className="text-[#FF2D59] text-center text-xl font-semibold">
+            <h6 className="text-[#FF2D59] dark:text-main-yellow text-center text-lg xl:text-xl font-semibold">
               Testimonials
             </h6>
-            <h3
-              className="text-center text-[#111029] dark:text-white text-xl md:text-2xl lg:text-4xl xl:text-[42px]
-         px-1 tracking-[-0.1px]  font-semibold lg:leading-[56px]"
-            >
+            <h3 className="text-center text-[#111029] mx-auto lg:max-w-[65%] xl:max-w-[1120px] dark:text-white text-2xl xl:text-[42px] px-1 tracking-[-0.1px] font-semibold xl:leading-[56px]">
               Some testimonials from our customers
             </h3>
           </div>
@@ -84,8 +81,8 @@ function Testimonial() {
               return (
                 <div className="pt-14 flex justify-center" key={index}>
                   <div
-                    className={`tesimonialCard flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] shadow-xl ${item.shadow} dark:bg-[#00113B] bg-white space-y-6`}
-                    key={index} // also add key prop here
+                    className={`tesimonialCard flex text-center max-w-[352px] flex-col items-center px-8 pb-11 scroll-pt-6 rounded-[20px] hover:shadow-xl ${item.shadow} dark:bg-[#00113B] bg-white space-y-6`}
+                    key={index}
                   >
                     <img
                       src={imgURL}
@@ -100,7 +97,7 @@ function Testimonial() {
                         {company}
                       </strong>
                     </div>
-                    <p className="text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal dark:text-white text-[#70798B]">
+                    <p className="text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal dark:text-white text-main-gray">
                       {desc}
                     </p>
                     <div className="rating flex space-x-2.5">{items}</div>

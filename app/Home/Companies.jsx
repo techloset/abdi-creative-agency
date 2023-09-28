@@ -3,12 +3,12 @@ import React from "react";
 function Companies() {
   return (
     <section>
-      <div className={`customersSec mx-[24px] lg:mx-[80px]  xl:mx-[160px]`}>
+      <div className={`customersSec mx-[24px] lg:mx-[70px]  xl:mx-[160px]`}>
         <div className="heading space-y-5 xl:px-4 sm:p-0 mb-[60px]">
-          <h6 className="text-[#FF2D59] dark:text-main-yellow text-center text-xl font-semibold">
+          <h6 className="text-[#FF2D59] dark:text-main-yellow text-center text-lg xl:text-xl font-semibold">
             Some of Our Great Customers
           </h6>
-          <h3 className="text-center text-[#111029] mx-auto max-w-[1120px] dark:text-white text-4xl xl:text-[42px] px-1 tracking-[-0.1px] font-semibold leading-[56px]">
+          <h3 className="text-center text-[#111029] mx-auto lg:max-w-[65%] xl:max-w-[1120px] dark:text-white text-2xl xl:text-[42px] px-1 tracking-[-0.1px] font-semibold xl:leading-[56px]">
             Some of the companies we have worked with
           </h3>
         </div>

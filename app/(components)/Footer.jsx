@@ -15,7 +15,7 @@ const Footer = () => {
           alt="curve"
           className="w-full absolute -bottom-6 -z-10"
         />
-        <div className="mx-[24px] lg:mx-[80px] xl:mx-[160px] py-[100px] lg:py-[200px]">
+        <div className="mx-[24px] lg:mx-[70px] xl:mx-[160px] py-[100px] lg:py-[200px]">
           <div className="rounded-[20px] text-white bg-main-yellow text-center pt-16 pb-[84px]">
             <p className="pb-2 md:pb-3 xl:pb-4 text-sm md:text-base font-medium">
               Are You Ready For
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
         {/* start a new project */}
         <div className="bg-[#00113B] mt-40">
-          <div className="mx-[24px] lg:mx-[80px] xl:mx-[160px] text-white relative pt-40">
+          <div className="mx-[24px] lg:mx-[70px] xl:mx-[160px] text-white relative pt-40">
             {/* Subscribe section */}
             <div className="w-full mx-auto absolute -top-40">
               <div className="text-center rounded-[20px]  bg-[#4C40F7] pt-[60px] pb-[80px]">

@@ -56,19 +56,19 @@ function Service() {
   return (
     <section>
       <div className="servicesSection relative pb-[100px] lg:pb-[200px]">
-        <div className="absolute right-0 -z-10 w-full -bottom-80 hidden lg:block">
+        <div className="absolute right-0 -z-10 w-full -bottom-52 hidden lg:block">
           <img
             src="/assets/images/bg-service.png"
             alt="bgService"
             className="w-full"
           />
         </div>
-        <div className="mx-[24px] lg:mx-[80px] xl:mx-[160px]">
+        <div className="mx-[24px] lg:mx-[70px] xl:mx-[160px]">
           <div className="heading space-y-5 xl:px-4 sm:p-0 mb-[60px]">
-            <h6 className="text-[#FF2D59] dark:text-main-yellow text-center text-xl font-semibold">
+            <h6 className="text-[#FF2D59] dark:text-main-yellow text-center text-lg xl:text-xl font-semibold">
               Our Services
             </h6>
-            <h3 className="text-center text-[#111029] mx-auto max-w-[1120px] dark:text-white text-4xl xl:text-[42px] px-1 tracking-[-0.1px] font-semibold leading-[56px]">
+            <h3 className="text-center text-[#111029] mx-auto lg:max-w-[65%] xl:max-w-[1120px] dark:text-white text-2xl xl:text-[42px] px-1 tracking-[-0.1px] font-semibold xl:leading-[56px]">
               The various services we provide to make your business more
               powerful
             </h3>
@@ -90,12 +90,20 @@ function Service() {
                   </div>
                   <div className="info space-y-4">
                     <h3
-                      className={`dark:text-white text-xl lg:text-lg xl:text-xl font-semibold`}
+                      className={`${
+                        cardData.title === "Ideate"
+                          ? "text-white"
+                          : "dark:text-white"
+                      } text-lg xl:text-xl font-semibold`}
                     >
                       {cardData.title}
                     </h3>
                     <p
-                      className={`dark:text-white lg:max-w-[292px] text-lg leading-[32px] lg:text-base xl:text-lg xl:leading-[32px] font-normal`}
+                      className={`text-main-gray ${
+                        cardData.title === "Ideate"
+                          ? "text-white"
+                          : "dark:text-white"
+                      }  lg:max-w-[292px] leading-[32px] text-base xl:text-lg xl:leading-[32px] font-normal`}
                     >
                       {cardData.description}
                     </p>
